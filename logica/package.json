@@ -1,0 +1,15 @@
+{
+  "name": "heartbeasties-logica",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Regras de negócio da loja (POO): entidades, serviços, erros e validadores. Não depende de Express, Sequelize nem React.",
+  "scripts": {
+    "test": "tsx --test testes/validadores.test.ts testes/entidades.test.ts testes/servicos.test.ts testes/estatistica.test.ts",
+    "tipos": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
